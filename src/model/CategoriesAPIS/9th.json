@@ -1,0 +1,23 @@
+[
+    {
+  
+      "name": "Introductory",
+      "size":[["BUY","500"],["RENT","250"]],
+      "price": "500",
+      "image": "https://m.media-amazon.com/images/I/41AAOFkuAmL.jpg",
+      "info": "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "id": "62618a030dd64a146072283q"
+  
+  },
+  {
+  
+      "name": "Practical",
+      "size":[["BUY","1000"],["RENT","500"]],
+      "price": "1000",
+      "image": "https://media.springernature.com/w306/springer-static/cover-hires/book/978-3-319-96692-2",
+      "info": "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "id": "62618a030dd64a146072283r"
+       
+  }
+  
+  ]

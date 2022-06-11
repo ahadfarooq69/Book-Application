@@ -1,0 +1,42 @@
+[
+  {
+
+    "name": "Rocket Propulsion",
+    "size":[["BUY","500"],["RENT","250"]],
+    "price": "500",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjTLt4ZcZgf8N4xAsNqKpJUImlwgmqQPupPUMfibM74u8WERgSCtrwFcm-PrRAMAi3AGQ&usqp=CAU",
+    "info": "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "id": "62618a030dd64a146072283a"
+},
+{
+
+    "name": "Mechanics",
+    "size":[["BUY","1000"],["RENT","500"]],
+    "price": "1000",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/410MA89b5yL.jpg",
+    "info": "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "id": "62618a030dd64a146072283b"
+
+},
+{
+  
+    "name": "Design",
+    "size":[["BUY","300"],["RENT","250"]],
+    "price": "600",
+    "image": "https://www.brighthubengineering.com/wp-content/uploads/2011/02/ShigleysMechanicalEngineering.jpg?ezimgfmt=rs:342x430/rscb2/ng:webp/ngcb2",
+    "info": "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "id": "62618a030dd64a146072283c"
+
+},
+{
+
+    "name": "Fluid",
+    "size":[["BUY","300"],["RENT","150"]],
+    "price": "300",
+    "image": "https://qph.cf2.quoracdn.net/main-qimg-7b9fc209ba593aad171cc225c04e29f4.webp",
+    "info": "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "id": "62618a030dd64a146072283d"
+
+}
+
+]

@@ -1,0 +1,43 @@
+[
+    {
+  
+      "name": "Introductory",
+      "size":[["Charity","00"]],
+      "price": "Free",
+      "image": "https://m.media-amazon.com/images/I/41AAOFkuAmL.jpg",
+      "info": "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "id": "62618a030dd64a146072283u"
+  
+  },
+  {
+  
+      "name": "Practical",
+      "size":[["Charity","00"]],
+      "price": "Free",
+      "image": "https://media.springernature.com/w306/springer-static/cover-hires/book/978-3-319-96692-2",
+      "info": "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "id": "62618a030dd64a146072283v"
+  
+  },
+  {
+  
+    "name": "Introductory",
+    "size":[["Charity","00"]],
+    "price": "Free",
+    "image": "https://m.media-amazon.com/images/I/41AAOFkuAmL.jpg",
+    "info": "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "id": "62618a030dd64a146072283w"
+
+},
+{
+
+    "name": "Practical",
+    "size":[["Charity","00"]],
+    "price": "Free",
+    "image": "https://media.springernature.com/w306/springer-static/cover-hires/book/978-3-319-96692-2",
+    "info": "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "id": "62618a030dd64a146072283x"
+
+}
+  
+  ]
