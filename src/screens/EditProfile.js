@@ -53,30 +53,30 @@ const EditProfile = props => {
       return;
     } else {
       console.log('Into api');
-      const UploadDataCredentials = {
+     const UploadDataCredentials = {
         first_name: FirstName,
         last_name: LastName,
         email: Email,
         passwordHash: User.passwordHash,
-        bio: Bio,
+      bio: Bio,
       };
-      console.log(JSON.stringify(UploadDataCredentials));
+     console.log(JSON.stringify(UploadDataCredentials));
       fetch(url, {
         method: 'PUT',
         headers: {
           Accept: 'application/json',
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(UploadDataCredentials),
+       body: JSON.stringify(UploadDataCredentials),
       })
         .then(response => response.text())
         .then(async responseText => {
-          let responseData = JSON.parse(responseText);
+        let responseData = JSON.parse(responseText);
           console.log('responseData', responseData);
           if (responseData.status == 200) {
             AsyncStorage.removeItem('@UserData');
-            props.navigation.replace(navigationstring.LOGIN);
-          } else {
+           props.navigation.replace(navigationstring.LOGIN);
+         } else {
             console.log('fail');
           }
         })
@@ -96,9 +96,9 @@ const EditProfile = props => {
       setTimeout(() => {
         console.log(FirstName);
         updateState({
-          FirstName: User.first_name,
+         FirstName: User.first_name,
           LastName: User.last_name,
-          Email: User.email,
+       Email: User.email,
           Bio: User.bio,
           ShowData: true,
         });
@@ -109,7 +109,7 @@ const EditProfile = props => {
   };
   useLayoutEffect(() => {
     GetUser();
-  }, [ShowData]);
+ }, [ShowData]);
   const updateState = data => setstate(state => ({...state, ...data}));
 
   // galleryActionProfile = () => {
@@ -362,21 +362,21 @@ const EditProfile = props => {
             myText="Update"
             mycss={{borderRadius: 10}}
             mymulticolor={['#20b2aa', '#20b2aa', '#20b2aa']}
-            myonpress={() => {
-              console.log(FirstName);
-              console.log(LastName);
-              console.log(Email);
-              const nameRegex = /^[a-zA-Z]{3,10}$/;
-              if (
-                nameRegex.test(FirstName) &&
-                nameRegex.test(LastName)
-              ) {
-                updateUser();
-              } else {
-                alert('Please Provide Valid Information.');
-              }
-              
-            }}
+           // myonpress={() => {
+            //  console.log(FirstName);
+             // console.log(LastName);
+             // console.log(Email);
+             // const nameRegex = /^[a-zA-Z]{3,10}$/;
+             // if (
+             //   nameRegex.test(FirstName) &&
+             //   nameRegex.test(LastName)
+             // ) {
+             //   updateUser();
+            //  } else {
+            //    alert('Please Provide Valid Information.');
+          //    }
+             
+          //  }}
           />
         </ScrollView>
       )}

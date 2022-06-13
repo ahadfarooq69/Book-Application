@@ -15,6 +15,7 @@ import Buy from '../screens/Buy/Buy';
 import AdminDelete from '../screens/AdminDelete/AdminDelete';
 import AdminModify from '../screens/AdminModify/AdminModify';
 import AdminHome from '../screens/Admin/AdminHome';
+import Setting from '../screens/Setting';
 const Tab = createBottomTabNavigator();
 
 function ADMINBOTTOMTAB() {
@@ -70,7 +71,7 @@ function ADMINBOTTOMTAB() {
                     color: focused ? '#20b2aa' : 'rgba(0,0,0,0.7)',
                     fontSize: 12,
                   }}>
-                  Sell
+                  Add
                 </Text>
               </View>
             ),
@@ -107,7 +108,7 @@ function ADMINBOTTOMTAB() {
           }}
         />
         <Tab.Screen
-          name={navigationstring.ADMINHOMR}
+          name={navigationstring.ADMINHOME}
           component={AdminHome}
           options={{
             tabBarIcon: ({focused}) => (

@@ -77,7 +77,7 @@ function Route() {
         <Stack.Screen name={navigationstring.ADMINBOTTOMTAB} component={ADMINBOTTOMTAB} />
         <Stack.Screen name={navigationstring.ADMINDELETE} component={AdminDelete} />
         <Stack.Screen name={navigationstring.ADMINMODIFY} component={AdminModify} />
-        <Stack.Screen name={navigationstring.ADMINHOMR} component={AdminHome} />
+        <Stack.Screen name={navigationstring.ADMINHOME} component={AdminHome} />
         
       </Stack.Navigator>
       

@@ -68,7 +68,7 @@ function BOTTOMTABHOME() {
                     color: focused ? '#20b2aa' : 'rgba(0,0,0,0.7)',
                     fontSize: 12,
                   }}>
-                  Buy
+                  Search
                 </Text>
               </View>
             ),

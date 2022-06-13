@@ -237,7 +237,7 @@ const Sell = props => {
                 fontWeight: '700',
                 color: 'black',
               }}>
-              Sell Your Book
+              Add Your Book
             </Text>
           </View>
           <View style={{marginTop: moderateVerticalScale(10)}}>
